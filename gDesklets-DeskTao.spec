@@ -6,17 +6,18 @@ Summary:	DeskTao - displaying random passages from the Tao
 Summary(pl):	DeskTao - wy¶wietlanie losowych fragmentów z Tao
 Name:		gDesklets-%{pname}
 Version:	3.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname_file}-%{version}.tar.bz2
 # Source0-md5:	fbbf7c9491483790aa731a78a63a0d22
 Patch0:		%{pname_file}-tao-file.patch
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=58
-BuildRequires:	python >= 2.3
+BuildRequires:	python >= 1:2.3
 BuildRequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
 Requires:	gDesklets-DeskQuote
+%pyrequires_eq	python-libs
 Provides:	gDesklets-display
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
