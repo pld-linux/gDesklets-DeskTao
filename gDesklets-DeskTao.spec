@@ -1,6 +1,6 @@
 
-%define	pname		DeskTao
-%define	pname_file	desktao
+%define		pname		DeskTao
+%define		pname_file	desktao
 
 Summary:	DeskTao - displaying random passages from the Tao
 Summary(pl):	DeskTao - wy¶wietlanie losowych fragmentów z Tao
@@ -21,8 +21,8 @@ Provides:	gDesklets-display
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define _displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 DeskTao displays random passages from the Tao (or any properly
