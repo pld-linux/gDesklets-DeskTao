@@ -1,7 +1,7 @@
-%include        /usr/lib/rpm/macros.python
+%include	/usr/lib/rpm/macros.python
 
-%define	pname	   DeskTao
-%define	pname_file desktao
+%define	pname		DeskTao
+%define	pname_file	desktao
 
 Summary:	DeskTao displays random passages from the Tao
 Name:		gDesklets-%{pname}
@@ -18,7 +18,7 @@ BuildRequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
 Requires:	gDesklets-DeskQuote
 Provides:	gDesklets-display
-BuildArch:      noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_sensorsdir	%{_datadir}/gdesklets/Sensors
