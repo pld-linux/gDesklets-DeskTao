@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 
 %define	pname		DeskTao
 %define	pname_file	desktao
