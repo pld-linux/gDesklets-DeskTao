@@ -6,7 +6,7 @@ Summary:	DeskTao - displaying random passages from the Tao
 Summary(pl):	DeskTao - wy¶wietlanie losowych fragmentów z Tao
 Name:		gDesklets-%{pname}
 Version:	3.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname_file}-%{version}.tar.bz2
