@@ -1,0 +1,11 @@
+diff -Nuard desktao-3.0.orig/tao.display desktao-3.0/tao.display
+--- desktao-3.0.orig/tao.display	2003-09-15 02:32:49.000000000 +0200
++++ desktao-3.0/tao.display	2003-11-17 01:27:56.000000000 +0100
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <display window-flags="below, sticky" width="350" height="450">
+-  <sensor id="taoit" module="DeskQuote,tao,center,120,46"/>
++  <sensor id="taoit" module="DeskQuote,/usr/share/gdesklets/Sensors/DeskQuote/tao,center,120,46"/>
+   <sensor id="fontsel" module="FontSelector,1,Courier 10 Pitch 8  SlateGrey"/>
+  <group id="grp">
+     <image uri="gfx/tao.png" anchor="center" y="225" x="175" />
