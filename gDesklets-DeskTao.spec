@@ -18,6 +18,7 @@ BuildRequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
 Requires:	gDesklets-DeskQuote
 Provides:	gDesklets-display
+BuildArch:      noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_sensorsdir	%{_datadir}/gdesklets/Sensors
