@@ -3,7 +3,8 @@
 %define	pname		DeskTao
 %define	pname_file	desktao
 
-Summary:	DeskTao displays random passages from the Tao
+Summary:	DeskTao - displaying random passages from the Tao
+Summary(pl):	DeskTao - wy¶wietlanie losowych fragmentów z Tao
 Name:		gDesklets-%{pname}
 Version:	3.0
 Release:	1
@@ -27,6 +28,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DeskTao displays random passages from the Tao (or any properly
 marked-up text) on your desktop in suitably relaxing colours.
+
+%description -l pl
+DeskTao wy¶wietla losowe fragmenty z Tao (lub dowolnego w³a¶ciwie
+pooznaczanego tekstu) na pulpicie w odpowiednio relaksuj±cych
+kolorach.
 
 %prep
 %setup -q -n %{pname_file}-%{version}
