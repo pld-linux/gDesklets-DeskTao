@@ -3,7 +3,7 @@
 %define		pname_file	desktao
 
 Summary:	DeskTao - displaying random passages from the Tao
-Summary(pl.UTF-8):   DeskTao - wyświetlanie losowych fragmentów z Tao
+Summary(pl.UTF-8):	DeskTao - wyświetlanie losowych fragmentów z Tao
 Name:		gDesklets-%{pname}
 Version:	3.0
 Release:	4
